@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import ReactMarkdown from 'react-markdown'
+
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
@@ -11,7 +12,7 @@ const draculaTheme = dracula as any
 
 export function PostContent({ text }: PostContentProps) {
   return (
-    <main className="flex flex-col gap-4 mb-32 py-10 px-8">
+    <main className="flex flex-col gap-4 mb-32 py-10 px-8 posts-content">
       <ReactMarkdown
         components={{
           code({ inline, className, children, ...props }) {

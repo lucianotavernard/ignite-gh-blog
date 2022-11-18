@@ -13,3 +13,42 @@ body, input, textarea, button {
 body {
   -webkit-font-smoothing: antialiased;
 }
+
+.posts-content img {
+  width: 100%;
+}
+
+.posts-content ul {
+  list-style: inherit;
+  padding-left: 1.5rem;
+}
+
+.posts-content h1,
+.posts-content h2,
+.posts-content h3,
+.posts-content a {
+  color: #3294F8;
+}
+
+.posts-content a:hover {
+  text-decoration: underline;
+}
+
+.posts-content pre {
+  padding: 1rem;
+  border-radius: 3px;
+
+  background: #112131;
+}
+
+.posts-content pre > div {
+  margin: 0;
+  padding: 0;
+
+  background: none !important;
+}
+
+.posts-content pre > div code {
+  font-family: "FiraCode", monospace !important;
+  line-height: 160% !important;
+}
